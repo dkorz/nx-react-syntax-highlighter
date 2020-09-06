@@ -3,16 +3,16 @@ import { PrismAsyncLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import json from 'react-syntax-highlighter/dist/esm/languages/prism/json';
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-import './highlighter.css';
+import './highlight.css';
 
 SyntaxHighlighter.registerLanguage('json', json);
 
 /* eslint-disable-next-line */
-export interface HighlighterProps {
+export interface HighlightProps {
   children: ReactNode | ReactNodeArray;
 }
 
-export const Highlighter = ({ children }: HighlighterProps) => {
+export const Highlight = ({ children }: HighlightProps) => {
   return (
     <SyntaxHighlighter language="json" style={atomDark}>
       {children}
@@ -20,4 +20,4 @@ export const Highlighter = ({ children }: HighlighterProps) => {
   );
 };
 
-export default Highlighter;
+export default Highlight;

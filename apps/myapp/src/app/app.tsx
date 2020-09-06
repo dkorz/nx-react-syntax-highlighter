@@ -1,5 +1,5 @@
 import React from 'react';
-import { Highlighter } from '@nx-react-syntax-highlighter/ui';
+import { Highlight } from '@nx-react-syntax-highlighter/ui';
 
 import './app.css';
 
@@ -15,7 +15,7 @@ export const App = () => {
         <h1>Welcome to myapp!</h1>
       </header>
       <main>
-        <Highlighter>{json}</Highlighter>
+        <Highlight>{json}</Highlight>
       </main>
     </div>
   );

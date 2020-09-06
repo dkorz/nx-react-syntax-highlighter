@@ -1,1 +1,1 @@
-export * from './lib/highlighter/highlighter';
+export * from './lib/highlight/highlight';
