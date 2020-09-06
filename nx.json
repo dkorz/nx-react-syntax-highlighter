@@ -28,6 +28,9 @@
     "myapp-e2e": {
       "tags": [],
       "implicitDependencies": ["myapp"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
